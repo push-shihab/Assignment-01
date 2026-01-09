@@ -12,23 +12,47 @@
   background-color: #469165;
   border: none;
   border-radius: 5px;
-  padding: 12.5px 16px;
+  padding: 16px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .btn:hover {
-  border: 1px solid #469165;
+  outline: 1px solid #469165;
   background-color: #ffffff;
   color: #469165;
-  box-shadow: 1px 1px 1px black;
+}
+
+.secondary-btn {
+  font-family: inter;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.secondary-btn:hover {
+  border: 1px solid #469165;
+  background-color: #469165;
+  color: #ffffff;
 }
 /* Non shareable classes */
 
+/* CSS of Navbar */
 nav {
-  width: 100%;
+  max-width: 1360px;
+  width: 83%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 16px 0;
   border: 1px solid black;
@@ -52,4 +76,61 @@ nav {
 
 #nav-links ul li a:hover {
   color: #469165;
+}
+
+/* CSS of Hero-Section */
+#hero {
+  background-image: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  /* border: 5px solid red; */
+}
+#hero .hero-section {
+  max-width: 1360px;
+  width: 83%;
+  margin: 115px auto 180px;
+  border: 1px solid red;
+  text-align: center;
+}
+.hero-section h3 {
+  width: 20%;
+  margin: 0 auto 16px;
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 8px;
+  font-family: inter;
+  font-weight: 500;
+  background-color: #fffdf5;
+  color: #469165;
+}
+.hero-section h3 span {
+  margin-left: 8px;
+}
+.hero-section h1 {
+  font-family: inter;
+  font-size: 72px;
+  margin: 0 auto 16px;
+  width: 770px;
+  border: 1px solid blue;
+  font-family: inter;
+  color: #ffffff;
+}
+.hero-section h1 span {
+  color: #469165;
+}
+
+.hero-section p {
+  font-family: inter;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 10px;
 }
