@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: inter;
 }
 
 /* Shareable Classes */
 .btn {
-  font-family: inter;
   font-weight: 600;
   color: #ffffff;
   background-color: #469165;
@@ -26,7 +26,6 @@
 }
 
 .secondary-btn {
-  font-family: inter;
   font-weight: 600;
   color: #ffffff;
   background-color: transparent;
@@ -44,12 +43,15 @@
   background-color: #469165;
   color: #ffffff;
 }
+
+.box-size {
+  max-width: 1360px;
+  width: 83%;
+}
 /* Non shareable classes */
 
 /* CSS of Navbar */
 nav {
-  max-width: 1360px;
-  width: 83%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -69,7 +71,6 @@ nav {
 #nav-links ul li a {
   text-decoration: none;
   color: #000000;
-  font-family: inter;
   font-weight: 500;
 }
 
@@ -85,8 +86,6 @@ nav {
   display: flex;
 }
 #hero .hero-section {
-  max-width: 1360px;
-  width: 83%;
   margin: 115px auto 180px;
   text-align: center;
 }
@@ -95,7 +94,6 @@ nav {
   margin: 0 auto 16px;
   border-radius: 20px;
   padding: 8px;
-  font-family: inter;
   font-weight: 500;
   background-color: #fffdf5;
   color: #469165;
@@ -104,7 +102,6 @@ nav {
   margin-left: 8px;
 }
 .hero-section h1 {
-  font-family: inter;
   font-size: 72px;
   margin: 0 auto 16px;
   width: 770px;
@@ -116,8 +113,8 @@ nav {
 }
 
 .hero-section p {
-  font-family: inter;
   font-size: 18px;
+  line-height: 1.5;
   color: #ffffff;
   margin-bottom: 32px;
 }
@@ -133,8 +130,6 @@ nav {
 /* CSS of Structure Cards */
 
 .structure-card {
-  max-width: 1360px;
-  width: 83%;
   margin: 0 auto;
 }
 
@@ -143,14 +138,9 @@ nav {
   margin: 44px 0;
 }
 .card-info h1 {
-  font-family: inter;
   font-size: 48px;
   margin-bottom: 16px;
 }
-.card-info p {
-  font-family: inter;
-}
-
 .cards {
   display: flex;
   gap: 24px;
@@ -179,15 +169,9 @@ nav {
   font-size: 24px;
 }
 
-.card p {
-  font-family: inter;
-}
-
 /* CSS of Solution Section */
 
 .solution {
-  max-width: 1360px;
-  width: 83%;
   margin: 120px auto;
   display: flex;
   gap: 60px;
@@ -195,14 +179,12 @@ nav {
 }
 
 .solution h3 {
-  font-family: inter;
   color: #469165;
   margin-bottom: 16px;
   text-transform: uppercase;
 }
 
 .solution h1 {
-  font-family: inter;
   font-size: 48px;
   color: #001931;
   margin-bottom: 16px;
@@ -210,8 +192,6 @@ nav {
 }
 
 .solution .solution-overview {
-  font-family: inter;
-  line-height: 20px;
   color: #627382;
   margin-bottom: 40px;
 }
@@ -224,7 +204,6 @@ nav {
 
 .key-solution p {
   color: #001931;
-  font-family: inter;
 }
 
 .key-solution img {
@@ -234,8 +213,6 @@ nav {
 /* CSS for Early Access Section */
 
 .early-access {
-  max-width: 1360px;
-  width: 83%;
   margin: 120px auto;
   background-color: #f7f6f2;
   display: flex;
@@ -247,13 +224,11 @@ nav {
 }
 
 .early-access div h1 {
-  font-family: inter;
   font-size: 40px;
   margin-top: 80px;
 }
 
 .early-access div p {
-  font-family: inter;
   margin: 16px 0 24px 0;
   color: #627382;
 }
@@ -270,8 +245,6 @@ footer {
 }
 
 .footer-section {
-  max-width: 1360px;
-  width: 83%;
   margin: 80px auto;
   text-align: center;
 }
@@ -287,7 +260,6 @@ hr {
 }
 
 .footer-links h4 {
-  font-family: inter;
   font-size: 20px;
   color: #ffffff;
   margin-bottom: 16px;
@@ -307,6 +279,5 @@ hr {
 }
 
 .footer-section .copywrite {
-  font-family: inter;
   color: #fafafa;
 }
